@@ -31,17 +31,10 @@
 
   img {
     width: 120px;
-    height: 78.72px;
+    /* height: 78.72px; */
   }
 
-   .active ::after{
-      content: "";
-      display: block;
-      width: 100%;
-      height: 2px;
-      background-color: var(--red);
-      margin-top: 5px;
-  }
+  
 }
 
 
@@ -61,6 +54,14 @@
   font-weight: 400;
   color: black;
 
+   .active ::after{
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: red;
+      margin-top: 5px;
+  }
 
 }
 
@@ -129,13 +130,12 @@
 
 .image img {
   width: 500px;
-  height: 562px;
+  /* height: 562px; */
 }
 
 .box {
   display: flex;
   justify-content: space-between;
-  
   margin-top: 0;
   margin-bottom: 100px;
    span {
@@ -157,7 +157,7 @@
   .box1,
   .box2,
   .box3 {
-    height: 324px;
+    text-wrap: wrap;
     width: 387px;
     /* border-radius: 10px; */
     display: flex;
@@ -205,6 +205,7 @@
 
 /* section 2 */
 .section2 {
+  margin-top: 1rem;
   background-color: #f6f6f6;
   /* height: 738px; */
 }
@@ -222,11 +223,11 @@
   #img1 {
     margin-bottom: 3rem;
     width: 300px;
-    height: 485px;
+    /* height: 485px; */
   }
   #img2 {
     width: 300px;
-    height: 485px;
+    /* height: 485px; */
   }
 }
 
@@ -242,7 +243,6 @@
     align-items: center;
     img {
       width: 22.5px;
-      height: 20px;
       margin-bottom: 5px;
     }
     p {
@@ -257,7 +257,7 @@
 /*  section 3 */
 .section3 {
   width: 100%;
-  height: 806px;
+  /* height: 806px; */
   display: flex;
   flex-wrap: wrap;
  
@@ -268,10 +268,10 @@
   background-color: var(--purple);
   color: white;
   width: 100%;
-  height: 502px;
+
   display: flex;
   /* flex-wrap: wrap; */
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin-top: 10rem;
   position: relative;
@@ -281,13 +281,11 @@
   img {
     position: absolute;
     width: 413px;
-    height: 318px;
     top: -4rem;
-    /* left: 5px */
     
   }
   p {
-    margin-top: 15rem;
+    margin-top: 18rem;
     font-size: 18px;
     font-weight: 600;
     line-height: 30px;
@@ -299,12 +297,15 @@
 }
 
 .right {
+
   img {
+    position: absolute;
     width: 496px;
-    height: 318px;
+    bottom: -5rem;
+    
   }
   h1 {
-    margin-top: 7rem;
+    margin-bottom: 8rem;
     font-size: 40px;
     font-weight: 600;
     line-height: 50px;
@@ -316,7 +317,8 @@
 /* section 4 */
 .section4 {
   width: 100%;
-  height: 482px;
+  margin-top: 10rem;
+  /* height: 482px; */
   background-color: #f6f6f6;
   display: flex;
   flex-direction: row;
@@ -429,7 +431,7 @@
 
 .section5 {
   width: 100%;
-  height: 682px;
+  /* height: 682px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -613,3 +615,4 @@
 .icon {
   font-size: 16px;
 }
+
