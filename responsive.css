@@ -139,8 +139,7 @@
     }
   }
 
-  /* section 2 */
-  .section2 {
+    .section2 {
     margin-top: 3rem;
     background-color: #f6f6f6;
   }
@@ -152,19 +151,16 @@
   }
 
   .img {
-    /* margin-top: 1rem; */
     gap: 0.55rem;
     display: flex;
 
     #img1 {
       width: 131px;
-      /* height: 150px; */
     }
 
     #img2 {
       margin-top: 1rem;
       width: 131px;
-      /* height: 150px; */
     }
   }
 
@@ -181,38 +177,34 @@
   }
 
   .assistance {
-    /* margin-top: 2rem; */
     display: flex;
     flex-direction: column;
-    align-items: self-start;
+    align-items: flex-start;
     margin-left: 1rem;
-
-    .row2 {
-      #r1 {
-        margin-right: 36px;
-      }
-    }
-
-    div {
-      display: flex;
-      gap: 5px;
-      align-items: center;
-
-      img {
-        width: 22.5px;
-        /* height: 20px; */
-      }
-
-      p {
-        font-size: 17px;
-        font-weight: 600;
-        line-height: 25px;
-        color: black;
-        font-family: "Lora", serif;
-      }
-    }
+    width: 100%;
   }
 
+  .row1,
+  .row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* ✅ Ensures left alignment */
+    width: 100%;
+  }
+
+  .assistance div p {
+    text-align: left;
+  }
+
+  .assistance div {
+    justify-content: flex-start; /* ✅ Ensures horizontal alignment starts from left */
+    align-items:flex-start;
+    padding: 0 0.5rem;
+  }
+
+  .row2 #r1 {
+    margin-right: 36px;
+  }
   /* section3 */
   .section3 {
     padding: 10px;
@@ -611,7 +603,7 @@
     div {
       display: flex;
       gap: 5px;
-      align-items: center;
+      /* align-items: center; */
 
       img {
         width: 22.5px;
@@ -629,6 +621,8 @@
       }
     }
   }
+
+  /*  */
 
   .banner {
     color: white;
@@ -794,11 +788,11 @@
 
   .section5 {
     width: 100%;
-    height: 80vh;
+    /* height: 80vh; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 4rem; */
+    padding: 1rem;
     gap: 2rem;
     color: white;
   }
@@ -971,7 +965,7 @@
     .box1,
     .box2,
     .box3 {
-      width: 234px;
+      width: 232px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -1147,15 +1141,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 4rem; */
+    padding: 1rem;
     gap: 2rem;
     color: white;
   }
 
   .contents {
     background-color: var(--purple);
-    height: 450px;
-    min-width: 100vw;
+    /* height: 450px; */
+    /* min-width: 100vw; */
     border-radius: 10px;
     display: flex;
     flex-direction: column;
