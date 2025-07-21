@@ -1,0 +1,27 @@
+.mt-10{
+    margin-top: 10rem;
+}
+.mt-20{
+    margin-top: 20rem;
+}
+.mt-30{
+    margin-top: 30rem;
+}
+
+.mb-n1{
+    margin-bottom: -7rem;
+}
+
+/* bg-colors */
+.bg-pink{
+    background-color: #EA6D83;
+}
+
+.bg-violet{
+    background-color: #2A2160;
+}
+
+/* colors */
+.text-violet{
+    color: #2A2160;
+}
