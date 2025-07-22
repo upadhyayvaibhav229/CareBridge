@@ -20,7 +20,7 @@ html{
   margin: 0 auto;
 }
 
-.navbar {
+.navbar { 
   i {
     display: none;
   }
