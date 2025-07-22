@@ -6,6 +6,10 @@
   margin: 0 auto;
 }
 
+.html{
+    scroll-behavior: smooth;
+}
+
 /* section2 */
 .icon{
     position: relative;
@@ -24,3 +28,23 @@
 .row1{
     margin-top: -3rem!important;
 }
+
+.line-break{
+    display: block;
+}
+
+
+/* footer */
+
+.footer-links{
+    ul li{
+        margin-top: 5px;
+    }
+    ul li a{
+        color: black;
+        
+    }
+}
+
+
+
