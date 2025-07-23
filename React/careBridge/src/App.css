@@ -1,0 +1,102 @@
+.mt-10 {
+  margin-top: 10rem;
+}
+.mt-20 {
+  margin-top: 20rem;
+}
+.mt-30 {
+  margin-top: 30rem;
+}
+
+/* bg-colors */
+.bg-pink {
+  background-color: #ea6d83;
+}
+
+.bg-violet {
+  background-color: #2a2160;
+}
+
+.bg-gray {
+  background-color: #f6f6f6;
+}
+
+/* colors */
+.text-violet {
+  color: #2a2160;
+}
+
+.text-pink {
+  color: #ea6d83;
+}
+
+.line-break {
+  display: block;
+}
+
+/* font size */
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-60 {
+  font-size: 60px;
+}
+/* margin */
+.mb-n1 {
+  margin-bottom: -7rem;
+}
+
+.mt-n1 {
+  margin-top: -7rem;
+}
+
+.me-6 {
+  margin-right: 8rem;
+}
+
+/* font family */
+.font-epiloge{
+  font-family: "Epilogue", sans-serif;
+}
+
+.font-lora{
+  font-family: "Lora", serif;
+}
+
+.font-Raleway{
+  font-family: "Raleway", sans-serif;
+}
+
+
+@media (min-width: 567px) and (max-width: 767px) {
+  .fs-lg-60 {
+    font-size: 40px;
+  }
+
+  .mb-n1 {
+    margin-bottom: -7rem;
+  }
+
+  .mb-10 {
+    margin-bottom: 10rem;
+  }
+}
+
+.fs-45 {
+  font-size: 45px;
+}
+
+@media (min-width: 768px) {
+  .mt-md-10 {
+    margin-top: 10rem;
+  }
+  .py-5 {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+  }
+  .py-10 {
+    padding-top: 10rem;
+    /* padding-bottom: 10rem; */
+  }
+}
