@@ -50,7 +50,9 @@
 .mt-n1 {
   margin-top: -7rem;
 }
-
+.font-epiloge{
+  font-family: ;
+}
 @media (min-width: 567px) and (max-width: 767px) {
   .fs-lg-60 {
     font-size: 40px;
