@@ -51,7 +51,15 @@
   margin-top: -7rem;
 }
 .font-epiloge{
-  font-family: ;
+  font-family: "Epilogue", sans-serif;
+}
+
+.font-lora{
+  font-family: "Lora", serif;
+}
+
+.font-Raleway{
+  font-family: "Raleway", sans-serif;
 }
 @media (min-width: 567px) and (max-width: 767px) {
   .fs-lg-60 {
