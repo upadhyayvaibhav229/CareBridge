@@ -68,3 +68,17 @@
 .fs-45 {
   font-size: 45px;
 }
+
+@media (min-width: 768px) {
+  .mt-md-10 {
+    margin-top: 10rem;
+  }
+  .py-5 {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+  }
+  .py-10 {
+    padding-top: 10rem;
+    /* padding-bottom: 10rem; */
+  }
+}

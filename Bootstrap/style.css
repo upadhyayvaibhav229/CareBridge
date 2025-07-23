@@ -91,7 +91,7 @@
 .number {
   /* margin-bottom: 5px; */
 
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 64px;
   font-style: bold;
@@ -114,7 +114,9 @@
   }
 }
 
-
+.section3{
+  margin-top: 2rem;
+}
 /* responsive */
 
 
@@ -123,6 +125,13 @@
   .line-break {
     display: inline;
   }
+  .datas-wrapper::after {
+  height: 1px;
+  width: 92%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
 /* 
   .help-titles {
     display: flex !important;    
@@ -156,13 +165,31 @@
   .number {
   /* margin-bottom: 5px; */
 
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 64px;
   font-style: bold;
   }
+  p{
+    font-size: 16px !important;
+  }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  #img{
+    width: 100%;
+  }
+  
+  #container{
+    margin-top: 11rem;
+  }
+}
  
-
+@media (min-width: 992px) {
+  
+  
+  #container{
+    margin-top: 11rem;
+  }
+}
 
