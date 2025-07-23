@@ -26,8 +26,10 @@ export const Support = () => {
           ))}
         </h2>
 
-        <p className="text-white text-center font-lora fs-5 lh-2 w-50">
-          {data.desc}
+        <p className="text-white text-center font-lora fs-5 lh-2 ">
+          {data.desc.split("\n").map((line, index) => (
+            <div key={index}>{line}</div>
+          ))}
         </p>
         <div className="d-flex flex-md-row gap-2 flex-column justify-content-center">
           {buttons.map((item, index) => (

@@ -16,6 +16,7 @@ const data = {
 ],
 };
 const Banner1 = () => {
+    
   return (
     <div className="bg-gray w-100 mt-4 mt-lg-5 py-5">
       <div className="container">
@@ -47,7 +48,7 @@ const Banner1 = () => {
             <div className="assistance mt-5 py-3 font-lora">
               <div className="row1 d-flex flex-wrap justify-content-center">
                 {data.subpoints1.map((item, index) => (
-                  <p className="icon ms-5 ms-md-5 font-lora " key={index}>
+                  <p className={`icon ms-5 ms-md-5 font-lora ${index === data.subpoints1.length - 1 ? "me-md-6" : ""}`} key={index}>
                     {item}
                   </p>
                   

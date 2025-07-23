@@ -28,7 +28,10 @@ export const Hero = () => {
           <div className="content1 col-lg-7 order-2 order-lg-1">
             <h1 className="fs-1 text-violet fw-bold">
               Guiding Arizona Residents
-              <span className="d-inline d-md-block">to Access Quality Care</span>
+              <span className="d-inline d-md-block">
+                {" "}
+                to Access Quality Care
+              </span>
               <span className="d-inline d-md-block">and Support</span>
             </h1>
             <p>
@@ -57,15 +60,17 @@ export const Hero = () => {
 
         <div className="box row mt-2 mt-lg-0">
           {data.map((item, index) => (
-            <div className="col-lg-4 col-sm-6 pb-2 pb-lg-0" key={index}>
+            <div
+              className={`col-lg-4 col-sm-6 pb-2 pb-lg-0 ${
+                index === data.length - 1 ? "ms-sm-0" : ""
+              }`}
+              key={index}
+            >
               <div className={`${item.color} p-4 d-flex flex-column gap-2`}>
-                <div className="text-start ">
-
-                <span
-                  className="fs-1 fw-bold text-white bg-violet rounded-circle px-3 py-3 me-6"
-                >
-                  {item.no}
-                </span>
+                <div className="text-start">
+                  <span className="fs-1 fw-bold text-white bg-violet rounded-circle px-3 py-3 me-6">
+                    {item.no}
+                  </span>
                 </div>
                 <p className="text-white text-left fw-semibold fs-4 ms-0 font-lora">
                   {item.desc}
@@ -74,11 +79,7 @@ export const Hero = () => {
             </div>
           ))}
         </div>
-
       </div>
-
-
     </section>
   );
 };
-

@@ -4,6 +4,7 @@ import Home from '../Page/Home'
   return (
     <div>
       <Home/>
+      
     </div>
   )
 }
