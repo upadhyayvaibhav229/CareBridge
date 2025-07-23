@@ -31,10 +31,20 @@
 
         <!-- button -->
         <button id="contact">Contact Us</button>
-        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-bars" id="menu" onclick="openMenu()"></i>
       </nav>
       <hr class="line" />
     </header>
+    <!-- sidebar -->
+    <aside id="sidebar">
+      <i class="fa-solid fa-xmark" id="close" onclick="openMenu()"></i>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#what-we-do">What We Do</a></li>
+        <li><a href="#">Request Assistance</a></li>
+        <li><a href="#donate">Donate</a></li>
+      </ul>
+    </aside>
 
     <main>
       <!-- hero section -->
@@ -265,5 +275,6 @@
     </div>
   </footer>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
