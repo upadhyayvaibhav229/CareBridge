@@ -22,7 +22,7 @@ export const Footer = () => {
         </div>
 
         {/* <!-- Quick Links --> */}
-        <div className="footer-links col-12 col-sm-12 col-md-4 col-lg">
+        <div className="footer-links col-12 col-sm-12 col-md-4 col-lg-">
           <h3>Quick Links</h3>
           <ul className="list-unstyled">
             <li><a className="text-decoration-none">Home</a></li>

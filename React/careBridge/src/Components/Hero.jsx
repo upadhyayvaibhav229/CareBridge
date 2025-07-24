@@ -66,9 +66,9 @@ export const Hero = () => {
               }`}
               key={index}
             >
-              <div className={`${item.color} p-4 d-flex flex-column gap-2`}>
-                <div className="text-start">
-                  <span className="fs-1 fw-bold text-white bg-violet rounded-circle px-3 py-3 me-6">
+              <div className={`${item.color} p-4 d-flex flex-column gap-2 `}>
+                <div className="text-start ms-0">
+                  <span className="fs-1 fw-bold text-white bg-violet rounded-circle px-3 py-3">
                     {item.no}
                   </span>
                 </div>

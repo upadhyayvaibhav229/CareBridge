@@ -21,7 +21,7 @@ const Banner1 = () => {
     <div className="bg-gray w-100 mt-4 mt-lg-5 py-5">
       <div className="container">
         <div className="row align-items-center gy-5">
-          <div className="col-12 col-md-6 d-flex flex-row flex- gap-3 justify-content-center align-items-start">
+          <div className="col-12 col-md-12 col-lg-6 d-flex flex-row flex gap-3 justify-content-center align-items-start">
             <img
               src={data.img[0]}
               className="img-fluid"
@@ -37,7 +37,7 @@ const Banner1 = () => {
           </div>
 
           {/* <!-- Content --> */}
-          <div className="content col-12 col-md-6">
+          <div className="content col-12 col-md-12 col-lg-6">
             <h2 className="mb-4 fs-lg-60 fs-1 text-violet fw-bold text-md-start font-Raleway">
               {data.title}
              
@@ -48,7 +48,7 @@ const Banner1 = () => {
             <div className="assistance mt-5 py-3 font-lora">
               <div className="row1 d-flex flex-wrap justify-content-center">
                 {data.subpoints1.map((item, index) => (
-                  <p className={`icon ms-5 ms-md-5 font-lora ${index === data.subpoints1.length - 1 ? "me-md-6" : ""}`} key={index}>
+                  <p className={`icon ms-5 ms-md-5 font-lora ${index === data.subpoints1.length - 1 ? "ms-lg-3 ms-sm-3 " : ""}`} key={index}>
                     {item}
                   </p>
                   

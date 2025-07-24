@@ -4,7 +4,7 @@ export const Achivements = () => {
   return (
     
     <section className="section3 container w-100 mt-5 mt-lg-5 py-5">
-      <div className="row bg-gray align-items-center" style={{ marginTop: "4rem" }}>
+      <div className="row bg-gray align-items-center" id='achievements' style={{ marginTop: "4rem" }}>
         <div className="col-lg-4 col-md-12 col-12">
           <h2 className="text-violet fw-bolder fs-1 py-2 font-Raleway">
             Our Achievements in Numbers

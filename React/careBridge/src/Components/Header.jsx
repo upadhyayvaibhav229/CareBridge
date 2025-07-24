@@ -8,9 +8,9 @@ export const Header = () => {
 
     return (
         <div className=' border-bottom'>
-            <div className="container d-flex justify-content-around align-items-center">
-                <div className="logo ms-0">
-                    <img src={imgs.logo} alt="logo" />
+            <div className="container d-flex justify-content-around  align-items-center">
+                <div className="logo">
+                    <img src={imgs.logo} className='img-fluid w-75' alt="logo" />
                 </div>
                 <ul className='d-lg-flex d-none mt-3'>
                     {menu.map((item, index) => (
@@ -19,7 +19,8 @@ export const Header = () => {
                         </li>
                     ))}
                 </ul>
-                <Button variant="primary" className='px-4 d-none d-lg-block'>Contact Us</Button>
+          
+                <Button variant="primary" className='px-4 py-2 d-none d-lg-block me-0'>Contact Us</Button>
                 <i className="fa-solid fa-bars"></i>
             </div>
         </div>
