@@ -26,7 +26,7 @@ const Banner1 = () => {
               src={data.img[0]}
               className="img-fluid"
               style={{ width: "48%", maxWidth: "280px" }}
-              alt="Image 1"
+              alt="Image 1" 
             />
             <img
               src={data.img[1]}
